@@ -7,7 +7,7 @@
   tasks:
     - name: Server01
       copy: 
-        src: /home/cumulus/ON-04/server01
+        src: /home/cumulus/ON-04/server01-if
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
@@ -23,7 +23,7 @@
   tasks:
     - name: Server02
       copy: 
-        src: /home/cumulus/ON-04/server02
+        src: /home/cumulus/ON-04/server02-if
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
