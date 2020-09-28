@@ -3,7 +3,7 @@ iface lo inet loopback
     address 10.0.0.112/32
 
 auto swp1
-iface swp11
+iface swp1
 
 auto swp2
 iface swp2
