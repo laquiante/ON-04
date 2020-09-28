@@ -81,7 +81,7 @@
   tasks:
     - name: IPv4 und BGP 
       copy: 
-        src: /home/cumulus/ON-04/leaf01-if 
+        src: /home/cumulus/ON-04/leaf-01-if 
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
@@ -96,7 +96,7 @@
   tasks:
     - name: EVPN VxLAN
       copy:
-        src: /home/cumulus/ON-04/leaf01-frr
+        src: /home/cumulus/ON-04/leaf-01-frr
         dest: /etc/frr/frr.conf
       notify:
         - frr_reload
@@ -119,7 +119,7 @@
   tasks:
     - name: IPv4 und BGP 
       copy: 
-        src: /home/cumulus/ON-04/leaf02-if 
+        src: /home/cumulus/ON-04/leaf-02-if 
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
@@ -134,7 +134,7 @@
   tasks:
     - name: IPv4 und BGP
       copy: 
-        src: /home/cumulus/ON-04/leaf02-frr
+        src: /home/cumulus/ON-04/leaf-02-frr
         dest: /etc/frr/frr.conf
       notify:
         - frr_reload
@@ -158,7 +158,7 @@
   tasks:
     - name: IPv4 und BGP 
       copy: 
-        src: /home/cumulus/ON-04/leaf03-if 
+        src: /home/cumulus/ON-04/leaf-03-if 
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
@@ -173,7 +173,7 @@
   tasks:
     - name: IPv4 und BGP
       copy: 
-        src: /home/cumulus/ON-04/leaf03-frr
+        src: /home/cumulus/ON-04/leaf-03-frr
         dest: /etc/frr/frr.conf
       notify:
         - frr_reload
@@ -196,7 +196,7 @@
   tasks:
     - name: IPv4 und BGP 
       copy: 
-        src: /home/cumulus/ON-04/leaf04-if 
+        src: /home/cumulus/ON-04/leaf-04-if 
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
@@ -211,7 +211,7 @@
   tasks:
     - name: IPv4 und BGP
       copy: 
-        src: /home/cumulus/ON-04/leaf04-frr
+        src: /home/cumulus/ON-04/leaf-04-frr
         dest: /etc/frr/frr.conf
       notify:
         - frr_reload
@@ -235,7 +235,7 @@
   tasks:
     - name: IPv4 und BGP 
       copy: 
-        src: /home/cumulus/ON-04/spine01-if 
+        src: /home/cumulus/ON-04/spine-01-if 
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
@@ -250,7 +250,7 @@
   tasks:
     - name: IPv4 und BGP
       copy: 
-        src: /home/cumulus/ON-04/spine01-frr
+        src: /home/cumulus/ON-04/spine-01-frr
         dest: /etc/frr/frr.conf
       notify:
         - frr_reload
@@ -271,7 +271,7 @@
   tasks:
     - name: IPv4 und BGP 
       copy: 
-        src: /home/cumulus/ON-04/spine02-if 
+        src: /home/cumulus/ON-04/spine-02-if 
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
@@ -286,7 +286,7 @@
   tasks:
     - name: IPv4 und BGP
       copy: 
-        src: /home/cumulus/ON-04/spine02-frr
+        src: /home/cumulus/ON-04/spine-02-frr
         dest: /etc/frr/frr.conf
       notify:
         - frr_reload
@@ -307,7 +307,7 @@
   tasks:
     - name: IPv4 und BGP 
       copy: 
-        src: /home/cumulus/ON-04/spine03-if 
+        src: /home/cumulus/ON-04/spine-03-if 
         dest: /etc/network/interfaces
     # aktivieren
     - name: Durchstarten der Schnittstelle
@@ -322,7 +322,7 @@
   tasks:
     - name: IPv4 und BGP
       copy: 
-        src: /home/cumulus/ON-04/spine03-frr
+        src: /home/cumulus/ON-04/spine-03-frr
         dest: /etc/frr/frr.conf
       notify:
         - frr_reload
