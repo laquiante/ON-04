@@ -36,7 +36,7 @@
 # Einspielen der Routing Daemon
 # und "restart" von FRR
 
-- hosts: leafs
+- hosts: leaf
   name: Configure /etc/frr/daemon
   become: yes
   tasks:
@@ -53,7 +53,7 @@
         state=restarted
       listen: "frr_restart"
         
-- hosts: spines
+- hosts: spine
   name: Configure /etc/frr/daemon
   become: yes
   tasks:
