@@ -19,7 +19,7 @@ iface swp3
 
 auto bridge
 iface bridge
-    bridge-ports swp1 vxlan10 peerlink
+    bridge-ports swp10 vxlan10 peerlink
     bridge-vids 10
     bridge-vlan-aware yes
 
