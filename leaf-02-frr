@@ -1,6 +1,6 @@
 
 frr defaults datacenter
-hostname leaf01
+hostname leaf02
 log syslog informational
 service integrated-vtysh-config
 !
